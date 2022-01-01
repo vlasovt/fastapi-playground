@@ -5,7 +5,7 @@ from fastapi.param_functions import Header
 from starlette.responses import JSONResponse
 
 from book import Book, BookNoRating
-from exceptions import NegativeNumberException
+from examples.exceptions import NegativeNumberException
 
 app = FastAPI()
 
